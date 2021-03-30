@@ -43,7 +43,7 @@ def createuserForm(request):
             return HttpResponse('We have sent you an email, please confirm your email address to complete registration')
     else:
         form = CreateUserForm()
-    return render(request, 'signup.html', {'form': form})
+    return render(request, 'login.html', {'form': form})
 
 def registerPage(request):
 	if request.user.is_authenticated:

@@ -23,7 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'cz=&%f*9(d*zo$_55p=(p)(eki#p$pb^0159-)8k^6$9c3l&_b'
+MODE=config("MODE", default="dev")
+SECRET_KEY = config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -88,17 +90,15 @@ WSGI_APPLICATION = 'crm1.wsgi.application'
 #     }
 # }
 
-from decouple import config,Csv
-from decouple import config
+
 #...... 
 
 # Email configurations remember to install python-decouple
 EMAIL_USE_TLS = config('EMAIL_USE_TLS')
-EMAIL_HOST = config('smtp.gmail.com')
-EMAIL_PORT = config('587')
-EMAIL_HOST_USER = config('davidhashisoma95@mail.com')
-EMAIL_HOST_PASSWORD = config('magaretluv')
-
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_PORT = config('EMAIL_PORT')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 
 # development
@@ -167,12 +167,5 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'davidhashisoma95@gmail.com'
-EMAIL_HOST_PASSWORD = 'magaretluv'
-EMAIL_PORT = 587
-
 
 django_heroku.settings(locals())

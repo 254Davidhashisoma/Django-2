@@ -5,10 +5,10 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-	path('register/', views.registerPage, name="register"),
+	path('register/', views.createuserForm, name="register"),
 	path('login/', views.loginPage, name="login"),  
 	path('logout/', views.logoutUser, name="logout"),
-
+    # path('', views. createuserForm, name='register'),
     path('', views.home, name="home"),
     path('products/', views.products, name='products'),
     path('customer/<str:pk_test>/', views.customer, name="customer"),
