@@ -22,29 +22,6 @@ from django.contrib.auth.models import User
 from django.core.mail import EmailMessage
 
 
-def createuserForm(request):
-    if request.method == 'POST':
-        form = CreateUserForm(request.POST)
-        if form.is_valid():
-            user = form.save(commit=False)
-            user.is_active = False
-            user.save()
-            current_site = get_current_site(request)
-            email_subject = 'Activate Your Account'
-            message = render_to_string('activate_account.html', {
-                'user': user,
-                'domain': current_site.domain,
-                'uid': urlsafe_base64_encode(force_bytes(user.pk)).decode(),
-                'token': account_activation_token.make_token(user),
-            })
-            to_email = form.cleaned_data.get('email')
-            email = EmailMessage(email_subject, message, to=[to_email])
-            email.send()
-            return HttpResponse('We have sent you an email, please confirm your email address to complete registration')
-    else:
-        form = CreateUserForm()
-    return render(request, 'login.html', {'form': form})
-
 def registerPage(request):
 	if request.user.is_authenticated:
 		return redirect('home')
