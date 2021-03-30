@@ -1,6 +1,6 @@
 alembic==1.4.3
 bootstrap4==0.1.0
-distlib==0.3.1
+# distlib==0.3.1
 dj-database-url==0.5.0
 Django==3.1.7
 django-bootstrap4==2.3.1
@@ -8,7 +8,6 @@ django-filter==2.4.0
 django-heroku==0.3.1
 django-registration==3.1.1
 Flask-Bootstrap==3.3.7.1
-Flask-Email==1.4.4
 Flask-Login==0.5.0
 Flask-LoginManager==1.1.6
 Flask-WTF==0.14.3
