@@ -14,14 +14,13 @@
 
 ![Alt text](images/Screenshot from 2021-03-31 13-32-24.png)
 
+![Alt text](relative path to your image image.png?raw=true "Main Page")
 
-## - Mid Size Full Screen layout
+![Alt tex](images/Screenshot from 2021-03-31 13-32-31.png?raw=true "Main Page")
 
-![](images/Screenshot from 2021-03-31 13-32-31.png)
+![Alt tex](images/Screenshot from 2021-03-31 13-32-14.png?raw=true "Main Page")
 
-![](images/Screenshot from 2021-03-31 13-32-14.png)
-
-![](images/Screenshot from 2021-03-31 21-20-40.png)
+![Alt tex](images/Screenshot from 2021-03-31 21-20-40.png?raw=true "Main Page")
 
 
 ## In plain simple terms this is an Instagram-clone A photo application that you Display your photos for others to see.
