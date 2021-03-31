@@ -11,7 +11,6 @@
 
 ## - Full Screen layout
 
-![](spec.md/Disp7.png)
 
 ![Alt text](crm1/static/images/Screenshot from 2021-03-31 13-32-24.png)
 
@@ -22,20 +21,13 @@
 
 ![](crm1/static/images/Screenshot from 2021-03-31 13-32-14.png)
 
-## - Mid Size Screen
+![](crm1/static/images/Screenshot from 2021-03-31 21-20-40.png)
 
-![](spec.md/Disp5.png)
-
-## - Small Phone Screen
-
-![](spec.md/Disp4.png)
-
-#  PROJECT DESCRIPTION
 
 ## In plain simple terms this is an Instagram-clone A photo application that you Display your photos for others to see.
 
 ## Author
-DAVID Ashisoma
+David Ashisoma
 
 ## Prerequisites
 -You need to have nano text editor installed. you can find out whether you have it installed by typing nano --version in your terminal. For most linux distributions, it is installed by default. However, if you don't have it installed, you can quicky do that by typing sudo apt-get install nano in your terminal.
@@ -90,9 +82,9 @@ DAVID Ashisoma
 
 #Contact
 
--Mobile number: (254) 798731203
+-Mobile number: (254) 724566620
 -Email Address: davidhashisoma95@gmail.com
--github: zecollokaris
+-github: 254Davidhashisoma
 
 ## License
 DAVID ASHISOMA - MIT (c)2021 LICENSE
