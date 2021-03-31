@@ -12,7 +12,7 @@
 ## - Full Screen layout
 
 
-![Alt text](crm1/static/images/Screenshot from 2021-03-31 13-32-24.png)
+![Alt text](images/Screenshot from 2021-03-31 13-32-24.png)
 
 
 ## - Mid Size Full Screen layout
