@@ -17,11 +17,11 @@
 
 ## - Mid Size Full Screen layout
 
-![](crm1/static/images/Screenshot from 2021-03-31 13-32-31.png)
+![](images/Screenshot from 2021-03-31 13-32-31.png)
 
-![](crm1/static/images/Screenshot from 2021-03-31 13-32-14.png)
+![](images/Screenshot from 2021-03-31 13-32-14.png)
 
-![](crm1/static/images/Screenshot from 2021-03-31 21-20-40.png)
+![](images/Screenshot from 2021-03-31 21-20-40.png)
 
 
 ## In plain simple terms this is an Instagram-clone A photo application that you Display your photos for others to see.
