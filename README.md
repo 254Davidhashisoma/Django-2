@@ -29,7 +29,7 @@
 
 
 
-## In plain simple terms this is an Instagram-clone A photo application that you Display your photos for others to see.
+ ## User Registration and Login Authentication where a client has to login to access to click the product,the superuser is able to access both the backend and knowing the penging,out on delivery and delivered products on view..
 
 ## Author
 David Ashisoma
