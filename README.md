@@ -41,7 +41,7 @@ David Ashisoma
 
 -Python3.6. Installation ($ sudo apt-get install python3.6).
 
--Django1.11. Installation ($ pip install django==1.11).
+-Django1.11. Installation ($ pip install django==3).
 
 -Psycopg2. Installation ($ pip install psycopg2).
 
