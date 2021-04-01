@@ -16,7 +16,7 @@
 
 ![Alt text](relative path to your image image.png?raw=true "Main Page")
 
-![Alt tex](images/Screenshot from 2021-03-31 13-32-31.png?raw=true "Main Page")
+![Alt tex](crm1/static/images/Screenshot from 2021-03-31 13-32-14.png?raw=true "Main Page")
 
 ![Alt tex](images/Screenshot from 2021-03-31 13-32-14.png?raw=true "Main Page")
 
