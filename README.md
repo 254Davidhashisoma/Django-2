@@ -1,5 +1,5 @@
 # crash-course-CRM
-#                                                    INSTAGRAM.
+#                                                    ACCOUNTS.
 
 
 #                                                  WEBSITE DISPLAY.
@@ -12,15 +12,21 @@
 ## - Full Screen layout
 
 
-![Alt text](images/Screenshot from 2021-03-31 13-32-24.png)
 
-![Alt text](relative path to your image image.png?raw=true "Main Page")
+
+![Alt text](/crm1/static/images/s11.png?raw=true "Main Page")
+
+![Alt tex](/crm1/static/images/ss2.png?raw=true "Main Page")
 
 ![Alt tex](/crm1/static/images/s1.png?raw=true "Main Page")
 
-![Alt tex](images/Screenshot from 2021-03-31 13-32-14.png?raw=true "Main Page")
+![Alt tex](crm1/static/images/sss2.png?raw=true "Main Page")
 
-![Alt tex](images/Screenshot from 2021-03-31 21-20-40.png?raw=true "Main Page")
+![Alt text](crm1/static/images/s1.png)
+
+
+
+
 
 
 ## In plain simple terms this is an Instagram-clone A photo application that you Display your photos for others to see.
