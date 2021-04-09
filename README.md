@@ -81,7 +81,7 @@ David Ashisoma
 -CSS
 -Bootstarap
 -Python3.6
--Django 2.0.7
+-Django 3.
 -Psycopg2
 -PostgreSQL
 
